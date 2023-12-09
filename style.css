@@ -1,0 +1,183 @@
+body{
+	background: whitetgrey;
+	font-family: arial, times new roman, Typewalk 1915 Medium-Demo-;
+	margin: 0px;
+	padding: 0px;
+}
+*{box-sizing: border-box;}
+header{
+	background: #024500;
+	color: white;
+	height: 90px;
+	padding: 10px;
+	border-bottom: 4px solid #0400a4;
+}
+.container{
+			width: 90%;
+			margin: 10px auto;
+		}
+
+.menu{
+	float: right;}
+.menu a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 50px;
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 18px;
+	}
+.menu a:hover{
+	color:blue;
+}
+.slide{
+	background: url('img/slide.gif');
+	padding: 10px;
+	width: 100%;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	color: #024500;
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+		}
+.logo{
+	float: left;
+	font-family: fantasy;
+	font-size: 30px;
+	margin-top: -30px;
+}
+span{
+	color: blue;
+	padding: 20;
+}
+.row:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+.col{
+	width: 24%;
+	padding: 10px;
+	float: left;
+}
+.col img{
+	width: 300px;
+}
+footer{
+			background: #024500;
+			color: antiquewhite;
+			text-align: left;
+			padding: 30px;
+		}
+.c1{
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.c2{
+	font-size: 18px;
+}
+.s1{
+	color: yellow;
+}
+.fcol{
+	float: left;
+	width: 45%;
+}
+.fcol2{
+	float: right;
+	width: 45%;
+	margin-top: 150px;
+	text-align: right;
+	text-decoration: underline;
+}
+.dm{
+	text-align: justify;
+	line-height: 35px;
+}
+.imgd{
+	width: 300px;
+	border-image: orange;
+}
+.container-dm{
+	background: #d3d3d4;
+	padding: 3px;
+}
+.imgbox{
+	padding: 50px;
+}
+.mis{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.dm{
+	font-size: 20px;
+	line-height: 55px;
+}
+.imgbox-vis{
+	align-content: center;
+}
+.container-as{
+			width: 95%;
+			margin: 6px auto;
+		}
+.col-as{
+	width: 19%;
+	padding: 30px;
+	float: left;
+	background: none;
+}
+.col-as img{
+	width: 200px;
+}
+.col-as p{
+	text-align: center;
+	text-transform: bold;
+}
+.container-cu{
+			width: 95%;
+			margin: 10px auto;
+		}
+
+.col-cu{
+	width: 50%;
+	padding: 10px;
+	float: left;
+}
+.col-cu img{
+	width: 600px;
+}
+.col-cu-form{
+	width: 40%;
+	padding: 10px;
+	float: right;
+	background: lightgreen;
+}
+.col-cu-form input{
+	width: 550px;
+	height: 40px;
+	padding: 10px;
+}
+.tx{
+	width: 550px;
+	height: 150px;
+	padding: 10px;
+}
+.b{
+	width: 100px;
+	height: 50px;
+	color: black;
+	text-decoration: bold;
+	text-align: center;
+	float: right;
+	margin-right: 9px;
+}
+@media screen and (max-width: 680px)
+{
+	.menu a{
+		margin-top: 0;
+		padding: 0;
+}
